@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Responsive Website</title>
+<style>
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* Content Styles */
+.content {
+  padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Simple Responsive Website</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="content">
+    <h2>Welcome to Our Website!</h2>
+    <p>This is a simple example of a responsive website built using HTML and CSS.</p>
+    <p>Resize your browser window to see how the layout adjusts!</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2024 Simple Responsive Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
